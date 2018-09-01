@@ -1,0 +1,7 @@
+java -Dwebdriver.chrome.driver="<path>" -Dwebdriver.gecko.driver="<path>"-jar selenium-standalone-server-3.14.0.jar -role node 
+	-hub <IP of the HUB for registration> -log "<path of the log file>"
+
+java -Dwebdriver.gecko.driver="<path>" -jar selenium-standalone-server-3.14.0.jar -role node
+	-hub <IP of the HUB for registration> -log "<path of the log file>"
+
+https://github.com/NPN-Training/Selenium-Grid.git
